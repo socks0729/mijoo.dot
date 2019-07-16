@@ -1,4 +1,4 @@
-### autostart ###
+## autostart {{{
 
 #exec --no-startup-id compton -b
 #exec_always --no-startup-id dunst
@@ -6,6 +6,8 @@ exec --no-startup-id xfsettingsd --chm-client-disable &
 
 #Swap win and alt
 exec_always --no-startup-id setxkbmap -option altwin:swap_lalt_lwin
+
+}}}
 
 ### Gaps ###
 
@@ -91,6 +93,7 @@ floating_modifier $mod
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show drun -lines 6
 bindsym $mod+shift d exec rofi -show run -lines 6
+bindsym $mod+Tab   exec rofi -show window
 #bindsym $mod+d exec --no-startup-id dmenu_run
 #bindsym $mod+d exec --no-startup-id rofi -show run -hide-scrollbar -fuzzy
 #bindsym $mod+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -column 3 -font 'Noto Sans 12'
