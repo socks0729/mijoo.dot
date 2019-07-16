@@ -7,7 +7,7 @@ exec --no-startup-id xfsettingsd --chm-client-disable &
 #Swap win and alt
 exec_always --no-startup-id setxkbmap -option altwin:swap_lalt_lwin
 
-}}}
+# }}}
 
 ### Gaps ###
 
