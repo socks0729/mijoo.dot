@@ -1,3 +1,9 @@
+## Colors {{{
+
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #ee923a #285577 #ffffff #16a085   #ee923a
+
 ## autostart {{{
 
 #exec --no-startup-id compton -b
